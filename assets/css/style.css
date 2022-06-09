@@ -6,12 +6,10 @@ body{
 }
 header{
     background: linear-gradient(90deg, #FBE38F 0%, #F1D256 100%);
+    min-height: 100vh;
 }
-header{
-    height: 100vh;
-}
-header>button>.btn-light{
-    border-radius: 50%;
+#chooseUS{
+    min-height: 100vh;
 }
 .navbar-toggler:focus{
     box-shadow: none !important;
