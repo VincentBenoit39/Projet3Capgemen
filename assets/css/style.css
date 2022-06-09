@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background: linear-gradient(90deg, #FBE38F 0%, #F1D256 100%);
+}
+header{
+    height: 100vh;
+}
+header>button>.btn-light{
+    border-radius: 50%;
+}
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+.btn-primary:hover, .btn-light{
+   border-color: transparent !important; 
+}
+@media (min-width: 768px){
+    .navbar-expand-md{
+        background: linear-gradient(90deg, #FBE38F 0%, #F1D256 100%);
+    }
+}
