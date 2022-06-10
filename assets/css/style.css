@@ -1,15 +1,8 @@
 body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     scroll-behavior: smooth;
 }
 header{
     background: linear-gradient(90deg, #FBE38F 0%, #F1D256 100%);
-    min-height: 100vh;
-}
-#chooseUS{
-    min-height: 100vh;
 }
 .navbar-toggler:focus{
     box-shadow: none !important;
@@ -22,3 +15,12 @@ header{
         background: linear-gradient(90deg, #FBE38F 0%, #F1D256 100%);
     }
 }
+.cadr{
+    border: none!;
+}
+
+
+
+
+
+
