@@ -5,9 +5,19 @@ body{
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+a{
+    text-decoration: none;
+}
 header{
     background: linear-gradient(90deg, #FBE38F 0%, #F1D256 100%);
     min-height: 100vh;
+}
+#partenaire{
+    width: 100%;
+    height: 50vh;
+}
+#newsletter{
+  height: 20vh;  
 }
 #chooseUS{
     min-height: 50vh;
@@ -21,8 +31,5 @@ header{
 @media (min-width: 768px){
     .navbar-expand-md{
         background: linear-gradient(90deg, #FBE38F 0%, #F1D256 100%);
-    }
-    h4{
-        width: 50%;
     }
 }
