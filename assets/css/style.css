@@ -160,5 +160,11 @@ header{
         border-left : 24px solid white;
         z-index: 2;
     }
-
+    #headFlex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
 }
