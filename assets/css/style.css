@@ -1,35 +1,111 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    width: 100vw;
 }
 a{
     text-decoration: none;
 }
+h1{
+    font-size: 40px !important;
+    line-height: 57px !important;
+    font-weight: 800 !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+h2{
+    font-size: 40px !important;
+    line-height: 57px !important;
+    font-weight: 700 !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+h3{
+    font-size: 24px !important;
+    line-height: 32px !important;
+    font-weight: 700 !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+h4{
+    justify-content: space-between;
+    font-size: 20px !important;
+    line-height: 30px !important;
+    font-weight: 500 !important;
+    color: #a5a5a5;
+    font-family: 'Montserrat', sans-serif !important;
+}
+h5{
+    font-size: 24px !important;
+    line-height: 32px !important;
+    font-weight: 700 !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+h6{
+    font-size: 24px !important;
+    line-height: 32px !important;
+    font-weight: 600 !important;
+    font-family: 'Montserrat', sans-serif !important; 
+}
+p{
+    font-size: 14px !important;
+    line-height: 20px !important;
+}
 header{
     background: linear-gradient(90deg, #FBE38F 0%, #F1D256 100%);
-    min-height: 100vh;
 }
 #partenaire{
-    width: 100%;
     height: 50vh;
 }
 #newsletter{
-  height: 20vh;  
+    height: 20vh;
+    background-color: #16697A;
 }
-#chooseUS{
-    min-height: 50vh;
+#newsletter>.container>.row>.col-12>.input-group>button{
+    background-color: #ffa62b;
 }
-.navbar-toggler:focus{
-    box-shadow: none !important;
+#about{
+    background-color: #16697A;
 }
-.btn-primary:hover, .btn-light{
-   border-color: transparent !important; 
+#bgBlack{
+    background-color: #252B42;
+}
+.bgB{
+    background-color: #00A0C1 !important;
+}
+.btnB{
+    border: 2px solid#00A0C1 !important; 
+    color: #00A0C1 !important;
+}
+.bgO{
+    background-color: #ffa62b !important;
+}
+.btnO{
+    border: 2px solid #ffa62b;
+}
+.buttonPlay::before{
+    content: ;
+
 }
 @media (min-width: 768px){
     .navbar-expand-md{
         background: linear-gradient(90deg, #FBE38F 0%, #F1D256 100%);
     }
+    #reseau{
+        text-align: center;
+        width: 25% !important;
+    }
+    h1{
+        font-size: 58px !important;
+        line-height: 80px !important;
+    
+    }
+    .btnFlex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
 }
